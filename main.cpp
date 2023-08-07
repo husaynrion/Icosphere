@@ -72,7 +72,7 @@ float vertices[12][3];
 
 float triangle[num_of_triangles][3][3];
 
-unsigned int spacing = num_of_triangles/20;
+unsigned int spacing = num_of_triangles/20; // 20 triangles will be evenly spaced in "triangle" array.
 
 void copy_vertices(float vertex[3], float *destination){
     for(unsigned short i=0; i<3; i++){
